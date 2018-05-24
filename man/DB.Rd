@@ -1,6 +1,5 @@
 \name{DB}
 \alias{DB}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Distance-based outlier detection based on user-given neighborhood size}
 \description{Function to calculate how many observations are within a certain sized neighborhood as an outlier score. Outliers are classified according to a user-given threshold of observations to be within the neighborhood. Suggested by Knorr, M., & Ng, R. T. (1997)}
 \usage{
@@ -18,8 +17,6 @@ DB(dataset, d = 1, fraction = 0.05)
 }
 \references{Knorr, M., & Ng, R. T. (1997). A Unified Approach for Mining Outliers. In Conf. of the Centre for Advanced Studies on Collaborative Research (CASCON). Toronto, Canada. pp. 236--248}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -30,5 +27,5 @@ cls_observations <- DB(dataset=X, d=1, fraction=0.05)$classification
 # Remove outliers from dataset
 X <- X[cls_observations=='Inlier',]
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

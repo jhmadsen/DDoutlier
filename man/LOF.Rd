@@ -1,6 +1,5 @@
 \name{LOF}
 \alias{LOF}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Local Outlier Factor (LOF) algorithm}
 \description{Function to calculate the Local Outlier Factor (LOF) as an outlier score for observations. Suggested by Breunig, M. M., Kriegel, H.-P., Ng, R. T., & Sander, J. (2000)}
 \usage{
@@ -16,9 +15,6 @@ A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan
 A vector of LOF scores for observations. The greater the LOF, the greater outlierness}
 \references{Breunig, M. M., Kriegel, H.-P., Ng, R. T., & Sander, J. (2000). LOF: Identifying Density-Based Local Outliers. In Int. Conf. On Management of Data. Dallas, TX. pp. 93-104}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -33,5 +29,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

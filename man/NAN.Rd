@@ -1,6 +1,6 @@
 \name{NAN}
 \alias{NAN}
-\title{Natural Neighbor (NAN) algorithm to identify self-adaptive neighborhood}
+\title{Natural Neighbor (NAN) algorithm to return the self-adaptive neighborhood}
 \description{Function to identify natural neighbors and the right k-parameter for kNN graphs as suggested by Zhu, Q., Feng, Ji. & Huang, J. (2016)}
 \usage{
 NAN(dataset, NaN_Edges = FALSE)
@@ -19,9 +19,6 @@ A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan
 }
 \references{Zhu, Q., Feng, Ji. & Huang, J. (2016). Natural neighbor: A self-adaptive neighborhood method without parameter K. Pattern Recognition Letters. pp. 30-36}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Select dataset
 X <- iris[,1:4]
@@ -39,5 +36,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

@@ -1,6 +1,5 @@
 \name{COF}
 \alias{COF}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Connectivity-based Outlier Factor (COF) algorithm}
 \description{Function to calculate the connectivity-based outlier factor as an outlier score for observations. Suggested by Tang, J., Chen, Z., Fu, A. W. C., & Cheung, D. W. (2002)}
 \usage{
@@ -15,9 +14,6 @@ The COF function is useful for outlier detection in clustering and other multidi
 \value{A vector of COF scores for observations. The greater the COF, the greater outlierness}
 \references{Tang, J., Chen, Z., Fu, A. W. C., & Cheung, D. W. (2002). Enhancing Effectiveness of Outlier Detections for Low Density Patterns. In Pacific-Asia Conf. on Knowledge Discovery and Data Mining (PAKDD). Taipei. pp. 535-548}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -32,5 +28,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

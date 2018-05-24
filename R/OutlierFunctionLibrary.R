@@ -195,7 +195,7 @@ INFLO <- function(dataset, k=5){
 
   for(i in 1:n){
 
-    influSpace <- as.vector(which(dist.obj$id==i, arr.in=TRUE)[,1])
+    influSpace <- as.vector(which(dist.obj$id==i, arr.ind = TRUE)[,1])
 
     if(length(influSpace)==0){
       RNN[i] <- k

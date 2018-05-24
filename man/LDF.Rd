@@ -1,11 +1,10 @@
 \name{LDF}
 \alias{LDF}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Local Density Factor (LDF) algorithm with gaussian kernel}
 \description{Function to calculate a Local Density Estimate (LDE) and Local Density Factor (LDF), as an outlier score, with a gaussian kernel. Suggested by Latecki, L., Lazarevic, A. & Prokrajac, D. (2007)
 }
 \usage{
-LDF(dataset, k = 5, h = 1, c = 0.1)
+LDF(dataset, k = 5, h = 1, c = 1)
 }
 \arguments{
   \item{dataset}{The dataset for which observations have an LDE and LDF score returned}
@@ -21,8 +20,6 @@ LDF(dataset, k = 5, h = 1, c = 0.1)
 }
 \references{Latecki, L., Lazarevic, A. & Prokrajac, D. (2007). Outlier Detection with Kernel Density Functions. International Workshop on Machine Learning and Data Mining in Pattern Recognition: Machine Learning and Data Mining in Pattern Recognition. pp. 61-75}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -37,5 +34,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

@@ -1,6 +1,5 @@
 \name{NOF}
 \alias{NOF}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Natural Outlier Factor (NOF) algorithm}
 \description{Function to calculate the Natural Outlier Factor (NOF) as an outlier score for observations. Suggested by Huang, J., Zhu, Q., Yang, L. & Feng, J. (2015)}
 \usage{
@@ -18,8 +17,6 @@ NOF(dataset)
 }
 \references{Huang, J., Zhu, Q., Yang, L. & Feng, J. (2015). A non-parameter outlier detection algorithm based on Natural Neighbor. Knowledge-Based Systems. pp. 71-77}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{}
 \examples{
 # Select dataset
 X <- iris[,1:4]
@@ -34,5 +31,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

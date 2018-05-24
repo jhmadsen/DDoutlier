@@ -1,6 +1,5 @@
 \name{LOCI}
 \alias{LOCI}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Local Correlation Integral (LOCI) algorithm with constant nearest neighbor parameter}
 \description{Function to calculate Local Correlation Integral (LOCI) as an outlier score for observations. Suggested by Papadimitriou, S., Gibbons, P. B., & Faloutsos, C. (2003). Uses a k number of nearest neighbors instead of a constant radius}
 \usage{
@@ -23,9 +22,6 @@ LOCI(dataset, alpha = 0.5, nn = 20, k = 3)
 }
 \references{Papadimitriou, S., Gibbons, P. B., & Faloutsos, C. (2003). LOCI: Fast Outlier Detection Using the Local Correlation Integral. In International Conference on Data Engineering. pp. 315-326}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -35,9 +31,6 @@ cls_observations <- LOCI(dataset=X, alpha=0.5, nn=20, k=1)$class
 
 # Remove outliers from dataset
 X <- X[cls_observations=='Inlier',]
-
-# Inspect the distribution of outlier scores
-hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

@@ -1,6 +1,5 @@
 \name{KNN_AGG}
 \alias{KNN_AGG}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Aggregated k-nearest neighbors distance over different k's}
 \description{Function to calculate aggregated distance to k-nearest neighbors over a range of k's, as an outlier score. Suggested by Angiulli, F., & Pizzuti, C. (2002)}
 \usage{
@@ -17,8 +16,6 @@ The KNN_AGG function is useful for outlier detection in clustering and other mul
 \value{A vector of aggregated distance for observations. The greater the distance, the greater outlierness}
 \references{Angiulli, F., & Pizzuti, C. (2002). Fast Outlier Detection in High Dimensional Spaces. In Int. Conf. on Knowledge Discovery and Data Mining (SIGKDD). Helsinki, Finland. pp. 15-26}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -33,5 +30,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

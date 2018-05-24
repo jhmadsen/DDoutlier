@@ -1,6 +1,5 @@
 \name{LDOF}
 \alias{LDOF}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Local Distance-based Outlier Factor (LDOF) algorithm}
 \description{Function to calculate Local Distance-based Outlier Factor (LDOF) as an outlier score for observations. Suggested by Zhang, K., Hutter, M. & Jin, H. (2009)}
 \usage{
@@ -16,9 +15,6 @@ LDOF(dataset, k = 5)
 }
 \references{Zhang, K., Hutter, M. & Jin, H. (2009). A New Local Distance-based Outlier Detection Approach for Scattered Real-World Data. Pacific-Asia Conference on Knowledge Discovery and Data Mining: Advances in Knowledge Discovery and Data Mining. pp. 813-822}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -33,5 +29,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

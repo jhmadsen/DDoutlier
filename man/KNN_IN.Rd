@@ -1,6 +1,5 @@
 \name{KNN_IN}
 \alias{KNN_IN}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{In-degree for observations in a k-nearest neighbors graph}
 \description{Function to calculate in-degree as an outlier score for observations, given a k-nearest neighbors graph. Suggested by Hautamaki, V., & Ismo, K. (2004)}
 \usage{
@@ -15,8 +14,6 @@ The KNN_IN function is useful for outlier detection in clustering and other mult
 \value{A vector of in-degree for observations. The smaller the in-degree, the greater outlierness}
 \references{Hautamaki, V., & Ismo, K. (2004). Outlier Detection Using k-Nearest Neighbour Graph. In International Conference on Pattern Recognition. Cambridge, UK. pp. 430-433}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -31,5 +28,5 @@ sort(outlier_score, decreasing = FALSE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

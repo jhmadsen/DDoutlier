@@ -1,6 +1,5 @@
 \name{KDEOS}
 \alias{KDEOS}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Kernel Density Estimation Outlier Score (KDEOS) algorithm with gaussian kernel}
 \description{Function to calculate a density estimation as an outlier score for observations, over a range of k-nearest neighbors. Suggested by Schubert, E., Zimek, A. & Kriegel, H-P. (2014)}
 \usage{
@@ -17,9 +16,6 @@ A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan
 \value{A vector of KDEOS scores normalized between 1 and 0, with 1 being the greatest outlierness}
 \references{Schubert, E., Zimek, A. & Kriegel, H-P. (2014). Generalized Outlier Detection with Flexible Kernel Density Estimates.  Proceedings of the 2014 SIAM International Conference on Data Mining. Philadelphia, USA. pp. 542-550}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -33,5 +29,5 @@ sort(outlier_score, decreasing = TRUE)
 
 # Inspect the distribution of outlier scores
 hist(outlier_score)
-}\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+}\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

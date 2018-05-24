@@ -1,6 +1,5 @@
 \name{INFLO}
 \alias{INFLO}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Influenced Outlierness (INFLO) algorithm}
 \description{Function to calculate the influenced outlierness as an outlier score for observations. Suggested by Jin, W., Tung, A. K. H., Han, J., & Wang, W. (2006)}
 \usage{
@@ -14,9 +13,6 @@ INFLO(dataset, k = 5)
 \value{A vector of INFLO scores for observations. The greater the INFLO, the greater outlierness}
 \references{Jin, W., Tung, A. K. H., Han, J., & Wang, W. (2006). Ranking Outliers Using Symmetric Neighborhood Relationship. In Pacific-Asia Conf. on Knowledge Discovery and Data Mining (PAKDD). Singapore. pp 577-593}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -31,5 +27,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

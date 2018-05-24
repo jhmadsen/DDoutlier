@@ -1,6 +1,5 @@
 \name{RDOS}
 \alias{RDOS}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Relative Density-based Outlier Factor (RDOS) algorithm with gaussian kernel}
 \description{Function to calculate the Relative Density-based Outlier Factor (RDOS) as an outlier score for observations. Suggested by Tang, B. & Haibo, He. (2017)}
 \usage{
@@ -18,9 +17,6 @@ It is a computational heavy task to identify reverse and shared neighbors from t
 }
 \references{Tang, B. & Haibo, He. (2017). A local density-based approach for outlier detection. Neurocomputing. pp. 171-180}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
@@ -35,5 +31,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }

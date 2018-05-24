@@ -1,6 +1,5 @@
 \name{LOOP}
 \alias{LOOP}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Local Outlier Probability (LOOP) algorithm}
 \description{Function to calculate the Local Outlier Probability (LOOP) as an outlier score for observations. Suggested by Kriegel, H.-P., Kröger, P., Schubert, E., & Zimek, A. (2009)}
 \usage{
@@ -17,15 +16,12 @@ A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan
 }
 \references{Kriegel, H.-P., Kröger, P., Schubert, E., & Zimek, A. (2009). LoOP: Local Outlier Probabilities. In ACM Conference on Information and Knowledge Management, CIKM 2009, Hong Kong, China. pp. 1649-1652}
 \author{Jacob H. Madsen}
-\note{}
-\seealso{
-}
 \examples{
 # Create dataset
 X <- iris[,1:4]
 
 # Find outliers by setting an optional k
-outlier_score <- LOOP(dataset=X, k=10, lamdba=3)
+outlier_score <- LOOP(dataset=X, k=10, lambda=3)
 
 # Sort and find index for most outlying observations
 names(outlier_score) <- 1:nrow(X)
@@ -34,5 +30,5 @@ sort(outlier_score, decreasing = TRUE)
 # Inspect the distribution of outlier scores
 hist(outlier_score)
 }
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd1 }
+\keyword{ ~kwd2 }
