@@ -26,4 +26,4 @@ To install latest version in R use following commands:
 #devtools::install_github('jhmadsen/DDoutlier')
 ```
 
-Working is currently carried out to make it available in the CRAN repository
+Work is currently carried out to make it available in the CRAN repository
