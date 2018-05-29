@@ -1,6 +1,6 @@
 Package: DDoutlier
 Type: Package
-Title: Distance & Density-based Outlier Detection
+Title: Distance & Density-Based Outlier Detection
 Version: 0.1.0
 Author: Jacob H. Madsen <jacob.madsen1@mail.com>
 Maintainer: Jacob H. Madsen <jacob.madsen1@mail.com>
