@@ -12,7 +12,7 @@ KNN_IN(dataset, k = 5)
 \details{KNN_IN computes the in-degree, being the number of reverse neighbors. For computing the in-degree, a k-nearest neighbors graph is computed. A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan' package.
 The KNN_IN function is useful for outlier detection in clustering and other multidimensional domains.}
 \value{A vector of in-degree for observations. The smaller the in-degree, the greater outlierness}
-\references{Hautamaki, V., & Ismo, K. (2004). Outlier Detection Using k-Nearest Neighbour Graph. In International Conference on Pattern Recognition. Cambridge, UK. pp. 430-433}
+\references{Hautamaki, V., & Ismo, K. (2004). Outlier Detection Using k-Nearest Neighbour Graph. In International Conference on Pattern Recognition. Cambridge, UK. pp. 430-433. DOI: 10.1109/ICPR.2004.1334558}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

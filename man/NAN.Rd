@@ -17,7 +17,7 @@ A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan
 \item{NaN_Edges}{Matrix of edges for natural neighbors}
 \item{n_NaN}{The number of natural neighbors}
 }
-\references{Zhu, Q., Feng, Ji. & Huang, J. (2016). Natural neighbor: A self-adaptive neighborhood method without parameter K. Pattern Recognition Letters. pp. 30-36}
+\references{Zhu, Q., Feng, Ji. & Huang, J. (2016). Natural neighbor: A self-adaptive neighborhood method without parameter K. Pattern Recognition Letters. pp. 30-36. DOI: 10.1016/j.patrec.2016.05.007}
 \author{Jacob H. Madsen}
 \examples{
 # Select dataset

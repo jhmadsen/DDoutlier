@@ -15,7 +15,7 @@ RDOS(dataset, k = 5, h = 1)
 It is a computational heavy task to identify reverse and shared neighbors from the kd-tree. Thus, the RDOS has high complexity and is not recommended to apply to datasets with n>5000. The RDOS function is useful for outlier detection in clustering and other multidimensional domains}
 \value{A vector of RDOS scores for observations. The greater the RDOS score, the greater outlierness
 }
-\references{Tang, B. & Haibo, He. (2017). A local density-based approach for outlier detection. Neurocomputing. pp. 171-180}
+\references{Tang, B. & Haibo, He. (2017). A local density-based approach for outlier detection. Neurocomputing. pp. 171-180. DOI: 10.1016/j.neucom.2017.02.039}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

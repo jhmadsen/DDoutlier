@@ -17,7 +17,7 @@ The RKOF function is useful for outlier detection in clustering and other multid
 }
 \value{A vector of RKOF scores for observations. The greater the RKOF score, the greater outlierness
 }
-\references{Gao, J., Hu, W., Zhang, X. & Wu, Ou. (2011). Pacific-Asia Conference on Knowledge Discovery and Data Mining: Advances in Knowledge Discovery and Data Mining. pp. 270-283}
+\references{Gao, J., Hu, W., Zhang, X. & Wu, Ou. (2011). RKOF: Robust Kernel-Based Local Outlier Detection. Pacific-Asia Conference on Knowledge Discovery and Data Mining: Advances in Knowledge Discovery and Data Mining. pp. 270-283. DOI: 10.1007/978-3-642-20847-8_23}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

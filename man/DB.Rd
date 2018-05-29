@@ -15,7 +15,7 @@ DB(dataset, d = 1, fraction = 0.05)
 \item{neighbors}{The number of neighbors within the neighborhood}
 \item{classification}{Binary classification of observations as inlier or outlier}
 }
-\references{Knorr, M., & Ng, R. T. (1997). A Unified Approach for Mining Outliers. In Conf. of the Centre for Advanced Studies on Collaborative Research (CASCON). Toronto, Canada. pp. 236--248}
+\references{Knorr, M., & Ng, R. T. (1997). A Unified Approach for Mining Outliers. In Conf. of the Centre for Advanced Studies on Collaborative Research (CASCON). Toronto, Canada. pp. 236-248. DOI: 10.1145/782010.782021}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

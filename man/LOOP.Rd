@@ -14,7 +14,7 @@ LOOP(dataset, k = 5, lambda = 3)
 A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan' package. The LOOP function is useful for outlier detection in clustering and other multidimensional domains}
 \value{A vector of LOOP scores for observations. 1 indicates outlierness and 0 indicate inlierness
 }
-\references{Kriegel, H.-P., Kröger, P., Schubert, E., & Zimek, A. (2009). LoOP: Local Outlier Probabilities. In ACM Conference on Information and Knowledge Management, CIKM 2009, Hong Kong, China. pp. 1649-1652}
+\references{Kriegel, H.-P., Kröger, P., Schubert, E., & Zimek, A. (2009). LoOP: Local Outlier Probabilities. In ACM Conference on Information and Knowledge Management, CIKM 2009, Hong Kong, China. pp. 1649-1652. DOI: 10.1145/1645953.1646195}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

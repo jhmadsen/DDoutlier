@@ -20,7 +20,7 @@ LOCI(dataset, alpha = 0.5, nn = 20, k = 3)
 \item{norm_MDEF}{A vector of normalized MDEF-values, being sd_npar/avg_npar}
 \item{class}{Classification of observations as inliers/outliers following the rule of k}
 }
-\references{Papadimitriou, S., Gibbons, P. B., & Faloutsos, C. (2003). LOCI: Fast Outlier Detection Using the Local Correlation Integral. In International Conference on Data Engineering. pp. 315-326}
+\references{Papadimitriou, S., Gibbons, P. B., & Faloutsos, C. (2003). LOCI: Fast Outlier Detection Using the Local Correlation Integral. In International Conference on Data Engineering. pp. 315-326. DOI: 10.1109/ICDE.2003.1260802}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

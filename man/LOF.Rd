@@ -13,7 +13,7 @@ LOF(dataset, k = 5)
 A kd-tree is used for kNN computation, using the kNN() function from the 'dbscan' package. The LOF function is useful for outlier detection in clustering and other multidimensional domains}
 \value{
 A vector of LOF scores for observations. The greater the LOF, the greater outlierness}
-\references{Breunig, M. M., Kriegel, H.-P., Ng, R. T., & Sander, J. (2000). LOF: Identifying Density-Based Local Outliers. In Int. Conf. On Management of Data. Dallas, TX. pp. 93-104}
+\references{Breunig, M. M., Kriegel, H.-P., Ng, R. T., & Sander, J. (2000). LOF: Identifying Density-Based Local Outliers. In Int. Conf. On Management of Data. Dallas, TX. pp. 93-104. DOI: 10.1145/342009.335388}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

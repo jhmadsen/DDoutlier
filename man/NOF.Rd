@@ -15,7 +15,7 @@ NOF(dataset)
 \item{r}{The natural neighbor eigenvalue}
 \item{NOF}{A vector of Natural Outlier Factor scores. The greater the NOF, the greater the outlierness}
 }
-\references{Huang, J., Zhu, Q., Yang, L. & Feng, J. (2015). A non-parameter outlier detection algorithm based on Natural Neighbor. Knowledge-Based Systems. pp. 71-77}
+\references{Huang, J., Zhu, Q., Yang, L. & Feng, J. (2015). A non-parameter outlier detection algorithm based on Natural Neighbor. Knowledge-Based Systems. pp. 71-77. DOI: 10.1016/j.knosys.2015.10.014}
 \author{Jacob H. Madsen}
 \examples{
 # Select dataset

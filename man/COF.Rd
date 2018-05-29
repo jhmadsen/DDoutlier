@@ -12,7 +12,7 @@ COF(dataset, k = 5)
 \details{COF computes the connectivity-based outlier factor for observations, being the comparison of chaining-distances between observation subject to outlier scoring and neighboring observations.
 The COF function is useful for outlier detection in clustering and other multidimensional domains.}
 \value{A vector of COF scores for observations. The greater the COF, the greater outlierness}
-\references{Tang, J., Chen, Z., Fu, A. W. C., & Cheung, D. W. (2002). Enhancing Effectiveness of Outlier Detections for Low Density Patterns. In Pacific-Asia Conf. on Knowledge Discovery and Data Mining (PAKDD). Taipei. pp. 535-548}
+\references{Tang, J., Chen, Z., Fu, A. W. C., & Cheung, D. W. (2002). Enhancing Effectiveness of Outlier Detections for Low Density Patterns. In Pacific-Asia Conf. on Knowledge Discovery and Data Mining (PAKDD). Taipei. pp. 535-548. DOI: 10.1007/3-540-47887-6_53}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

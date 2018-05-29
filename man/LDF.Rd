@@ -18,7 +18,7 @@ LDF(dataset, k = 5, h = 1, c = 1)
 \item{LDE}{A vector of Local Density Estimate for observations. The greater the LDE, the greater centrality}
 \item{LDF}{A vector of Local Density Factor for observations. The greater the LDF, the greater the outlierness}
 }
-\references{Latecki, L., Lazarevic, A. & Prokrajac, D. (2007). Outlier Detection with Kernel Density Functions. International Workshop on Machine Learning and Data Mining in Pattern Recognition: Machine Learning and Data Mining in Pattern Recognition. pp. 61-75}
+\references{Latecki, L., Lazarevic, A. & Prokrajac, D. (2007). Outlier Detection with Kernel Density Functions. International Workshop on Machine Learning and Data Mining in Pattern Recognition: Machine Learning and Data Mining in Pattern Recognition. pp. 61-75. DOI: 10.1007/978-3-540-73499-4_6}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset

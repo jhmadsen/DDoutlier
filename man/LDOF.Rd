@@ -13,7 +13,7 @@ LDOF(dataset, k = 5)
 }
 \value{A vector of LDOF scores for observations. The greater the LDOF score, the greater outlierness
 }
-\references{Zhang, K., Hutter, M. & Jin, H. (2009). A New Local Distance-based Outlier Detection Approach for Scattered Real-World Data. Pacific-Asia Conference on Knowledge Discovery and Data Mining: Advances in Knowledge Discovery and Data Mining. pp. 813-822}
+\references{Zhang, K., Hutter, M. & Jin, H. (2009). A New Local Distance-based Outlier Detection Approach for Scattered Real-World Data. Pacific-Asia Conference on Knowledge Discovery and Data Mining: Advances in Knowledge Discovery and Data Mining. pp. 813-822. DOI: 10.1007/978-3-642-01307-2_84}
 \author{Jacob H. Madsen}
 \examples{
 # Create dataset
