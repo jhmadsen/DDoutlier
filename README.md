@@ -1,7 +1,7 @@
 DDoutlier
 ================
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/DDoutlier)](https://cran.r-project.org/package=DDoutlier) [![Monthly\_Downloads\_Badge](http://cranlogs.r-pkg.org/badges/DDoutlier)](https://cran.r-project.org/package=DDoutlier)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/DDoutlier)](https://cran.r-project.org/package=DDoutlier) [![Monthly\_Downloads\_Badge](https://www.rdocumentation.org/badges/total/last_month/DDoutlier)](https://cran.r-project.org/package=DDoutlier)
 
 ### About
 
@@ -41,7 +41,7 @@ Jin, W., Tung, A. K. H., Han, J., & Wang, W. (2006). Ranking Outliers Using Symm
 
 Knorr, M., & Ng, R. T. (1997). A Unified Approach for Mining Outliers. In Conf. of the Centre for Advanced Studies on Collaborative Research (CASCON). Toronto, Canada. pp. 236-248. DOI: 10.1145/782010.782021
 
-Kriegel, H.-P., Kröger, P., Schubert, E., & Zimek, A. (2009). LoOP: Local Outlier Probabilities. In ACM Conference on Information and Knowledge Management, CIKM 2009, Hong Kong, China. pp. 1649-1652. DOI: 10.1145/1645953.1646195
+Kriegel, H.-P., KrÃ¶ger, P., Schubert, E., & Zimek, A. (2009). LoOP: Local Outlier Probabilities. In ACM Conference on Information and Knowledge Management, CIKM 2009, Hong Kong, China. pp. 1649-1652. DOI: 10.1145/1645953.1646195
 
 Latecki, L., Lazarevic, A. & Prokrajac, D. (2007). Outlier Detection with Kernel Density Functions. International Workshop on Machine Learning and Data Mining in Pattern Recognition: Machine Learning and Data Mining in Pattern Recognition. pp. 61-75. DOI: 10.1007/978-3-540-73499-4\_6
 
