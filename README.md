@@ -1,6 +1,8 @@
 DDoutlier
 ================
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/DDoutlier)](https://cran.r-project.org/package=DDoutlier) [\[Monthly\_Downloads\_Badge\](http://cranlogs.r-pkg.org/badges/DDoutlier](https://cran.r-project.org/package=DDoutlier)
+
 ### About
 
 The **DDoutlier** package provides users with a wide variety of distance- and density-based outlier detection functions. Distance- and density based outlier detection works with local outliers in a multidimensional domain, meaning observations are compared to their respective neighborhood. The algorithms mainly have an advantage within two domains:
@@ -19,11 +21,9 @@ Removing duplicates and standardizing data is recommended before computing outli
 To install latest version in R use following commands:
 
 ``` r
-#install.packages('devtools')
-#devtools::install_github('jhmadsen/DDoutlier')
+install.packages('devtools')
+devtools::install_github('jhmadsen/DDoutlier')
 ```
-
-Work is currently carried out to make it available in the CRAN repository
 
 ### References
 
