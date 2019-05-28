@@ -5,7 +5,7 @@ output: github_document
 
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/DDoutlier)](https://cran.r-project.org/package=DDoutlier)
-[![Monthly_Downloads_Badge](http://cranlogs.r-pkg.org/badges/DDoutlier](https://cran.r-project.org/package=DDoutlier)
+[![Monthly_Downloads_Badge](http://cranlogs.r-pkg.org/badges/DDoutlier)](https://cran.r-project.org/package=DDoutlier)
 
 
 

@@ -1,7 +1,7 @@
 DDoutlier
 ================
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/DDoutlier)](https://cran.r-project.org/package=DDoutlier) [\[Monthly\_Downloads\_Badge\](http://cranlogs.r-pkg.org/badges/DDoutlier](https://cran.r-project.org/package=DDoutlier)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/DDoutlier)](https://cran.r-project.org/package=DDoutlier) [![Monthly\_Downloads\_Badge](http://cranlogs.r-pkg.org/badges/DDoutlier)](https://cran.r-project.org/package=DDoutlier)
 
 ### About
 
